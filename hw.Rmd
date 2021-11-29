@@ -1,0 +1,18 @@
+---
+title: "Homework: Slides and CV"
+author: "Kuljit Bhatti"
+date: "11/29/2021"
+output: beamer_presentation
+---
+
+# My Favorite Animal- Dog
+![Breed: Cane Corso.](cane.jpg)
+---
+---
+```{r, cars, fig.cap="A scatterplot.", echo=FALSE}
+plot(cars)
+title("My favorite plot")
+```
+## Click on CV to view
+
+- [CV](https://www.overleaf.com/read/jpydrrbrcvrq)

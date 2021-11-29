@@ -1,0 +1,32 @@
+\documentclass{beamer} % this tells LaTeX what type of document to make
+% Note, comments are prefaced by a % sign. If you need to type the actual symbol
+% you will have to escape it with \%.
+\title{STAT850 homework}
+\author{Kuljit Bhatti}
+\institute{University of Nebraska-Lincoln}
+\date{\today}
+
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Picture of my favorite animal: Dog}
+\includegraphics{cane.jpg}
+\end{frame}
+
+\begin{frame}
+\frametitle{My favorite plot}
+<<>>=
+plot(cars)
+@
+\end{frame}
+
+\begin{frame}
+\frametitle{My CV}
+\href{https://www.overleaf.com/read/jpydrrbrcvrq}{\beamergotobutton{Link}}
+\end{frame}
+
+\end{document}
+
